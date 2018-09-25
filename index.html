@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <script src="sepFile.js"></script>
+    <script src="app.js"></script>
+    <script src="sepFile2.js"></script>
+
+    <script>
+      let scriptTag = 'In separated script tag';
+    </script>
+  </head>
+  <body>
+    <h1>Javascript scope, anonymous functions</h1>
+    <hr>
+    Checking out variable scope: <br>
+    <hr>
+    Accessing variable in separated script tag: <br>
+    <button class="btn btn-primary" onclick="func1()"> Access</button> <br>
+    <hr>
+    Accessing variable inside of anonymous function: <br>
+    <button class="btn btn-primary" onclick="func2()"> Access</button> <br>
+    <hr>
+    Accessing variable outside of anonymous function: <br>
+    <button class="btn btn-primary" onclick="func3()"> Access</button> <br>
+  </body>
+</html>

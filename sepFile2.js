@@ -1,0 +1,1 @@
+let separatedAfter = "In separated js file, after app.js";
